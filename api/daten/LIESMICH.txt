@@ -1,0 +1,24 @@
+VERGLEICHSDATEN FÜR DIE PREISORIENTIERUNG
+Datei: vergleiche.csv (Trennzeichen Semikolon, Kodierung UTF-8, erste Zeile = Spaltennamen, nicht ändern)
+
+quelle          Woher stammt der Datensatz (z. B. "Eigener Verkauf", "Händler Mustermann")
+nutzungsrecht   Wie dürfen Sie die Daten nutzen (z. B. "eigene Daten", "Vereinbarung vom 01.10.2026"). Pflichtfeld.
+datum           Verkaufsdatum, Format JJJJ-MM-TT
+region          Ländercode: DE, AT, CH, NL, BE, FR, IT, ES, GB, US
+waehrung        zur Information; preis_eur muss bereits in Euro umgerechnet sein
+preisart        verkauf_privat | verkauf_haendler | auktion_zuschlag | inserat | richtwert_fachbetrieb
+gebuehren_eur   Käufergebühren etc. (wird getrennt gehalten und nicht in den Preis eingerechnet)
+bauform         klavier | fluegel
+marke           z. B. Schimmel (immer gleich schreiben)
+modellfamilie   z. B. 116 oder K 132 (optional, verbessert den Vergleich)
+groesse_cm      Höhe (Klavier) bzw. Länge (Flügel), optional
+baujahr         JJJJ, optional
+zustandsklasse  A, B, C oder D (optional, wie in der App-Klasse)
+arbeiten        dokumentierte Arbeiten (optional, z. B. "neue Hämmer")
+preis_eur       Preis in Euro ohne Tausenderpunkt, z. B. 2450
+
+WICHTIG
+- Nur Daten eintragen, die Sie nutzen dürfen und die ECHTE Verkäufe oder klar beschriebene Richtwerte sind.
+- Ein Preisintervall erscheint erst ab 8 passenden privaten Verkäufen (einstellbar in config.php).
+- vergleiche-demo.csv enthält ERFUNDENE Testdaten. Sie werden nur bei 'demo_daten' => true in config.php verwendet.
+- Prüfen Sie die Datei nach jeder Änderung mit: https://IHRE-DOMAIN/pruefung/api/daten-pruefen.php?key=IHR_ADMIN_KEY

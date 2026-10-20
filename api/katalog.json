@@ -1,0 +1,157 @@
+{
+ "fragen": {
+  "c1": {
+   "text": "Beschädigungen, Risse oder abgeplatzte Oberfläche am Gehäuse",
+   "bauteil": "gehaeuse"
+  },
+  "c2": {
+   "text": "Wasserflecken, Aufquellungen oder Verfärbungen",
+   "bauteil": "gehaeuse"
+  },
+  "r1": {
+   "text": "Risse, Ablösungen oder verdächtige Linien am Resonanzboden oder an den Stegen (nur soweit sichtbar)",
+   "bauteil": "resonanzboden"
+  },
+  "g1": {
+   "text": "Risse oder Brüche im Gussrahmen",
+   "bauteil": "rahmen"
+  },
+  "g2": {
+   "text": "Feuchtigkeitsspuren, Rostflecken oder Schimmel im Innenraum",
+   "bauteil": "rahmen"
+  },
+  "h1": {
+   "text": "Tiefe Rillen im Filz der Hammerköpfe",
+   "bauteil": "haemmer"
+  },
+  "h2": {
+   "text": "Fehlende, lose oder stark verformte Hammerköpfe",
+   "bauteil": "haemmer"
+  },
+  "h3": {
+   "text": "Auffällig ungleichmäßige Abnutzung benachbarter Hämmer",
+   "bauteil": "haemmer"
+  },
+  "m1": {
+   "text": "Fehlende Teile oder Fehlstellungen (schief stehende oder hängende Teile)",
+   "bauteil": "mechanik"
+  },
+  "m2": {
+   "text": "Gebrochene oder lose wirkende Teile",
+   "bauteil": "mechanik"
+  },
+  "d1": {
+   "text": "Dämpfer sichtbar schief oder nicht anliegend",
+   "bauteil": "daempfer"
+  },
+  "t1": {
+   "text": "Beschädigte oder fehlende Tastenbeläge",
+   "bauteil": "tasten"
+  },
+  "t2": {
+   "text": "Auffällige Höhenunterschiede oder unregelmäßige Abstände zwischen Tasten",
+   "bauteil": "tasten"
+  },
+  "s1": {
+   "text": "Sichtbarer Rost oder Korrosion an Saiten oder Wirbeln",
+   "bauteil": "saiten"
+  },
+  "s2": {
+   "text": "Fehlende oder gerissene Saiten",
+   "bauteil": "saiten"
+  },
+  "p1": {
+   "text": "Fehlende Teile oder sichtbar lose Verbindungen an Pedalen und Gestänge",
+   "bauteil": "pedale"
+  }
+ },
+ "ansichten": {
+  "aussen": {
+   "titel": "Instrument außen",
+   "fragen": [
+    "c1",
+    "c2"
+   ],
+   "identitaet": false
+  },
+  "schild": {
+   "titel": "Marke, Modell und Seriennummer",
+   "fragen": [],
+   "identitaet": true
+  },
+  "innen": {
+   "titel": "Innenübersicht",
+   "fragen": [
+    "r1",
+    "g1",
+    "g2"
+   ],
+   "identitaet": false
+  },
+  "haemmer": {
+   "titel": "Hammerbereich",
+   "fragen": [
+    "h1",
+    "h2",
+    "h3"
+   ],
+   "identitaet": false
+  },
+  "mechanik": {
+   "titel": "Zugängliche Mechanik und Dämpfer",
+   "fragen": [
+    "m1",
+    "m2",
+    "d1"
+   ],
+   "identitaet": false
+  },
+  "tasten": {
+   "titel": "Tastatur",
+   "fragen": [
+    "t1",
+    "t2"
+   ],
+   "identitaet": false
+  },
+  "taste_bass": {
+   "titel": "Tastatur: Bassbereich (Stichprobe)",
+   "fragen": [
+    "t1",
+    "t2"
+   ],
+   "identitaet": false
+  },
+  "taste_mitte": {
+   "titel": "Tastatur: Mittelbereich (Stichprobe)",
+   "fragen": [
+    "t1",
+    "t2"
+   ],
+   "identitaet": false
+  },
+  "taste_diskant": {
+   "titel": "Tastatur: Diskantbereich (Stichprobe)",
+   "fragen": [
+    "t1",
+    "t2"
+   ],
+   "identitaet": false
+  },
+  "saiten": {
+   "titel": "Saiten und Wirbelbereich",
+   "fragen": [
+    "s1",
+    "s2"
+   ],
+   "identitaet": false
+  },
+  "pedale": {
+   "titel": "Pedale und Gestänge",
+   "fragen": [
+    "p1"
+   ],
+   "identitaet": false
+  }
+ }
+}

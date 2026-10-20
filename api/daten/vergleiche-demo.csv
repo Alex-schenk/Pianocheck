@@ -1,0 +1,20 @@
+quelle;nutzungsrecht;datum;region;waehrung;preisart;gebuehren_eur;bauform;marke;modellfamilie;groesse_cm;baujahr;zustandsklasse;arbeiten;preis_eur
+DEMO;nur Test;2026-06-05;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1987;B;;1700
+DEMO;nur Test;2026-09-04;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1986;B;;3100
+DEMO;nur Test;2026-04-02;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1977;C;;2800
+DEMO;nur Test;2026-02-08;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1977;C;;1650
+DEMO;nur Test;2026-02-08;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1995;B;;3300
+DEMO;nur Test;2026-07-02;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1982;B;;3250
+DEMO;nur Test;2026-03-10;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1988;B;;3200
+DEMO;nur Test;2026-02-19;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1984;B;;1800
+DEMO;nur Test;2026-04-12;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1978;B;;3300
+DEMO;nur Test;2026-01-20;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1981;C;;3200
+DEMO;nur Test;2026-07-25;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1985;C;;3350
+DEMO;nur Test;2026-08-12;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1984;B;;2050
+DEMO;nur Test;2026-04-03;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1993;C;;3150
+DEMO;nur Test;2026-08-11;DE;EUR;verkauf_privat;0;klavier;Demomarke;D-114;114;1989;C;;1700
+DEMO;nur Test;2026-03-18;DE;EUR;verkauf_haendler;0;klavier;Demomarke;D-114;114;1988;B;Aufbereitung;3500
+DEMO;nur Test;2026-07-12;DE;EUR;verkauf_haendler;0;klavier;Demomarke;D-114;114;1990;B;Aufbereitung;4300
+DEMO;nur Test;2026-02-11;DE;EUR;verkauf_haendler;0;klavier;Demomarke;D-114;114;1992;B;Aufbereitung;4000
+DEMO;nur Test;2026-07-15;DE;EUR;verkauf_haendler;0;klavier;Demomarke;D-114;114;1994;B;Aufbereitung;4500
+DEMO;nur Test;2026-09-11;DE;EUR;verkauf_haendler;0;klavier;Demomarke;D-114;114;1977;B;Aufbereitung;3800
